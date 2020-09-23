@@ -110,10 +110,18 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
           <li class="nav-item">
             <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-server"></i>
+              <p>Webservices</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
               <i class="nav-icon fas fa-user"></i>
               <p>Profile</p>
             </a>
           </li>
+
 
           <li class="nav-item">
             <a href="#" class="nav-link">
@@ -144,7 +152,48 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
-        
+          <div class="row">
+            <div class="info-box col-3">
+            <!-- Apply any bg-* class to to the icon to color it -->
+            <span class="info-box-icon bg-red"><i class="fas fa-star"></i></span>
+            <div class="info-box-content">
+              <span class="info-box-text">Likes</span>
+              <span class="info-box-number">93,139</span>
+            </div>
+            <!-- /.info-box-content -->
+            </div>
+
+            <div class="info-box col-3">
+            <!-- Apply any bg-* class to to the icon to color it -->
+            <span class="info-box-icon bg-green"><i class="fas fa-comments"></i></span>
+            <div class="info-box-content">
+              <span class="info-box-text">Likes</span>
+              <span class="info-box-number">93,139</span>
+            </div>
+            <!-- /.info-box-content -->
+            </div>
+
+            <div class="info-box col-3">
+            <!-- Apply any bg-* class to to the icon to color it -->
+            <span class="info-box-icon bg-blue"><i class="fas fa-shipping-fast"></i></span>
+            <div class="info-box-content">
+              <span class="info-box-text">Likes</span>
+              <span class="info-box-number">93,139</span>
+            </div>
+            <!-- /.info-box-content -->
+            </div>
+
+            <div class="info-box col-3">
+            <!-- Apply any bg-* class to to the icon to color it -->
+            <span class="info-box-icon bg-blue"><i class="fas fa-dolly-flatbed"></i></span>
+            <div class="info-box-content">
+              <span class="info-box-text">Likes</span>
+              <span class="info-box-number">93,139</span>
+            </div>
+            <!-- /.info-box-content -->
+            </div>
+
+          </div>
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
