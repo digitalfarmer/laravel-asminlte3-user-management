@@ -4,7 +4,7 @@
             <div class="col-lg-3">
                 <!-- Apply any bg-* class to to the info-box to color it -->
                 <div class="info-box bg-red">
-                <span class="info-box-icon"><i class="fa fa-comments"></i></span>
+                <span class="info-box-icon"><i class="fas fa-chart-pie"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">Sales</span>
                     <span class="info-box-number">41,410</span>
@@ -24,7 +24,7 @@
             <div class="col-lg-3">
                 <!-- Apply any bg-* class to to the info-box to color it -->
                 <div class="info-box bg-green">
-                <span class="info-box-icon"><i class="fab fa-blackberry"></i></span>
+                <span class="info-box-icon"><i class="fas fa-chart-bar"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">Retur</span>
                     <span class="info-box-number">41,410</span>
@@ -64,7 +64,7 @@
             <div class="col-lg-3">
                 <!-- Apply any bg-* class to to the info-box to color it -->
                 <div class="info-box bg-orange">
-                <span class="info-box-icon"><i class="fas fa-home"></i></span>
+                <span class="info-box-icon"><i class="fas fa-cart-arrow-down"></i></span>
                 <div class="info-box-content">
                     <span class="info-box-text">Order</span>
                     <span class="info-box-number">71,410</span>

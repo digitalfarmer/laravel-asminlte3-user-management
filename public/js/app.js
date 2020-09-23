@@ -37581,7 +37581,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-lg-3" }, [
         _c("div", { staticClass: "info-box bg-red" }, [
           _c("span", { staticClass: "info-box-icon" }, [
-            _c("i", { staticClass: "fa fa-comments" })
+            _c("i", { staticClass: "fas fa-chart-pie" })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "info-box-content" }, [
@@ -37608,7 +37608,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-lg-3" }, [
         _c("div", { staticClass: "info-box bg-green" }, [
           _c("span", { staticClass: "info-box-icon" }, [
-            _c("i", { staticClass: "fab fa-blackberry" })
+            _c("i", { staticClass: "fas fa-chart-bar" })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "info-box-content" }, [
@@ -37662,7 +37662,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "col-lg-3" }, [
         _c("div", { staticClass: "info-box bg-orange" }, [
           _c("span", { staticClass: "info-box-icon" }, [
-            _c("i", { staticClass: "fas fa-home" })
+            _c("i", { staticClass: "fas fa-cart-arrow-down" })
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "info-box-content" }, [
@@ -52948,6 +52948,7 @@ var routes = [{
   component: __webpack_require__(/*! ./components/Webservices.vue */ "./resources/js/components/Webservices.vue")["default"]
 }];
 var router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
+  mode: 'history',
   routes: routes
 });
 var app = new Vue({
