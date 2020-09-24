@@ -34,7 +34,7 @@
                       <td><span class="tag tag-success">Approved</span></td>
                       <td>
                           <a href="http://">
-                            <i class="far fas fa-pencil-alt nav-icon &nbsp;"></i>
+                            <i class="far fas fa-edit nav-icon"></i>
                           </a>
                           /
                           <a href="http://">
@@ -63,8 +63,43 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <input type="text" class="input" placeholder="username">
-                    <input type="text" class="input" placeholder="email">
+                    <!-- name -->
+                   <div class="form-group">
+                       
+                       <input v-model="form.name"  name="name" placeholder="Name" class="form-control" :class="{'is-invalid': form.errors.has('name') }" type="text">
+                       <has-error :form="form" field="name"></has-error>
+                   </div>
+                   <!-- email -->
+                   <div class="form-group">
+                       
+                       <input v-model="form.email"  name="email" placeholder="Email Address" class="form-control" :class="{'is-invalid': form.errors.has('email') }" type="text">
+                       <has-error :form="form" field="email"></has-error>
+                   </div>
+
+                   <div class="form-group">
+                        <textarea v-model="form.bio" name="bio" id="bio"
+                        placeholder="Short bio for user (Optional)"
+                        class="form-control" :class="{ 'is-invalid': form.errors.has('bio') }"></textarea>
+                        <has-error :form="form" field="bio"></has-error>
+                    </div>
+
+
+                    <div class="form-group">
+                        <select name="type" v-model="form.type" id="type" class="form-control" :class="{ 'is-invalid': form.errors.has('type') }">
+                            <option value="">Select User Role</option>
+                            <option value="admin">Admin</option>
+                            <option value="user">Standard User</option>
+                            <option value="author">Author</option>
+                        </select>
+                        <has-error :form="form" field="type"></has-error>
+                    </div>
+
+                    <div class="form-group">
+                        <input v-model="form.password" type="password" name="password" id="password"
+                        class="form-control" :class="{ 'is-invalid': form.errors.has('password') }">
+                        <has-error :form="form" field="password"></has-error>
+                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -78,6 +113,18 @@
 </template>
 <script>
 export default {
+    data(){
+        return {
+            form : new form({
+                name:'',
+                email:'',
+                password:'',
+                type:'',
+                bio:'',
+                photo:''
+            })
+        }
+    },
     mounted(){
         console.log('Component Mounted')
     }
