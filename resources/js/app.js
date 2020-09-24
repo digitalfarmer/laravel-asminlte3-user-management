@@ -18,6 +18,6 @@ const router = new VueRouter({
 })
 
 const app = new Vue({
-    el: '#app',
+    el: '#ades',
     router
 })
