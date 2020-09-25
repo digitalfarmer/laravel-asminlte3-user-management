@@ -1910,7 +1910,7 @@ __webpack_require__.r(__webpack_exports__);
   },
   methods: {
     createUser: function createUser() {
-      this.form.post('/api/user');
+      this.form.post('api/user');
     }
   },
   mounted: function mounted() {
@@ -39130,7 +39130,7 @@ var staticRenderFns = [
       _vm._v(" "),
       _c(
         "button",
-        { staticClass: "btn btn-primary", attrs: { type: "button" } },
+        { staticClass: "btn btn-primary", attrs: { type: "submit" } },
         [_vm._v("Submit")]
       )
     ])

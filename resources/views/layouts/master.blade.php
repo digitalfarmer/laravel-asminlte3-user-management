@@ -111,7 +111,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
           <li class="nav-item">
             <router-link to="/webservice" class="nav-link">
-              <i class="nav-icon fab fa-blackberry purple"></i>
+              <i class="fas fa-broadcast-tower purple"></i>
               <p>Webservices</p>
             </router-link>
           </li>

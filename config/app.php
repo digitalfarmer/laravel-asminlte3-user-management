@@ -165,10 +165,11 @@ return [
         /*
          * Package Service Providers...
          */
-
+        Edujugon\Laradoo\Providers\OdooServiceProvider::class,
         /*
          * Application Service Providers...
          */
+        
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
@@ -223,6 +224,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Odoo' => Edujugon\Laradoo\Facades\Odoo::class,
 
     ],
 
