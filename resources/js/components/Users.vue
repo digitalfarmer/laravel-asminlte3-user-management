@@ -73,8 +73,9 @@
                             <!-- email -->
                             <div class="form-group">
                                 
-                                <input v-model="form.email"  name="email" placeholder="Email Address" class="form-control" :class="{'is-invalid': form.errors.has('email') }" type="text">
-                                <has-error :form="form" field="email"></has-error>
+                                  <input v-model="form.email"  name="email" placeholder="Email Address" class="form-control" :class="{'is-invalid': form.errors.has('email') }" type="text">
+                                  <has-error :form="form" field="email"></has-error>
+                                
                             </div>
 
                             <div class="form-group">
@@ -131,9 +132,6 @@ export default {
         createUser(){
             this.form.post('api/user');
         }
-    },
-    mounted(){
-        console.log('Component Mounted')
     }
 }
 </script>
